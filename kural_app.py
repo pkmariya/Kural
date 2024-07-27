@@ -3,10 +3,24 @@
 import streamlit as st
 import os
 import openai
+from PIL import Image
+import streamlit as st
 
 os.environ['OPENAI_API_KEY'] = 'sk-proj-fFmAYI14aLwtbzTWLUjqT3BlbkFJBTwdT5wH2KxOqZtwMq56'
 
-st.title("Welcome to Thamizh koorum Nal Uzhagam!")
+# image = "Thiruvalluvar.jpeg"
+# st.image(image=image)
+
+bottom_image = "Thiruvalluvar.jpeg"
+if bottom_image is not None:
+    image = Image.open(bottom_image)
+    new_image = image.resize((125, 125))
+    with st.columns(3)[1]:
+        st.header("")
+        st.image(new_image)
+
+# st.title("Welcome to Thamizh koorum Nal Uzhagam!")
+st.title("Welcome to தமிழ் கூறும் நல்லுலகம்!")
 
 input_text = st.text_input("Enter a word")
 
