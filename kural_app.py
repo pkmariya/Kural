@@ -28,7 +28,7 @@ st.write("The word you entered is: " + input_text)
 
 def get_response(text):
     response = openai.chat.completions.create(
-        model='gpt-3.5-turbo',
+        model='gpt-4o-2024-05-13',
         messages=[
             {"role": "system", "content": "You are my Thirukural Guru!"},
             {"role": "user", "content": f"For this word {text}. What is the associated Kural?"}
