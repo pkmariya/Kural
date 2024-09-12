@@ -6,7 +6,9 @@ import openai
 from PIL import Image
 import streamlit as st
 
-os.environ['OPENAI_API_KEY'] = 'sk-proj-fFmAYI14aLwtbzTWLUjqT3BlbkFJBTwdT5wH2KxOqZtwMq56'
+# os.environ['OPENAI_API_KEY'] = 'sk-proj-fFmAYI14aLwtbzTWLUjqT3BlbkFJBTwdT5wH2KxOqZtwMq56'
+# OpenAI API credentials
+os.environ['OPENAI_API_KEY'] = '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'
 
 # image = "Thiruvalluvar.jpeg"
 # st.image(image=image)
