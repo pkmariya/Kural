@@ -8,7 +8,8 @@ import streamlit as st
 
 # OpenAI API credentials
 # os.environ['OPENAI_API_KEY'] = 'sk-proj-fFmAYI14aLwtbzTWLUjqT3BlbkFJBTwdT5wH2KxOqZtwMq56'
-os.environ['OPENAI_API_KEY'] = 'sk-vp6DeY6wU6WXMw18AGXGF_MkOw61CI-ajU135jc7afT3BlbkFJzd3z1g5XXspJ7Kv8tvDJyYklusAsXyR6KR0irO45sA'
+# os.environ['OPENAI_API_KEY'] = 'sk-vp6DeY6wU6WXMw18AGXGF_MkOw61CI-ajU135jc7afT3BlbkFJzd3z1g5XXspJ7Kv8tvDJyYklusAsXyR6KR0irO45sA'
+os.environ['OPENAI_API_KEY'] = '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'
 
 # image = "Thiruvalluvar.jpeg"
 # st.image(image=image)
